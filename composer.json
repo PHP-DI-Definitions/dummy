@@ -14,7 +14,7 @@
     "extra": {
         "php-di-definitions": {
             "di": [
-                "src/dummy.php"
+                "etc/di/dummy.php"
             ]
         }
     },
