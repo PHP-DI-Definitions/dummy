@@ -1,6 +1,13 @@
 {
     "name": "php-di-definitions/dummy",
     "description": "Dummy definition for testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.2"
     },
