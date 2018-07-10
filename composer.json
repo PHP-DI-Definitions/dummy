@@ -1,5 +1,6 @@
 {
     "name": "php-di-definitions/dummy",
+    "description": "Dummy definition for testing",
     "require": {
         "php": "^7.2"
     },
