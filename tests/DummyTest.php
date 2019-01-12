@@ -5,9 +5,12 @@ namespace PHPDIDefinitions\Tests;
 use ApiClients\Tools\TestUtilities\TestCase;
 use PHPDIDefinitions\Dummy;
 
+/**
+ * @internal
+ */
 final class DummyTest extends TestCase
 {
-    public function testDummy()
+    public function testDummy(): void
     {
         self::assertTrue(true);
         self::assertInstanceOf(Dummy::class, new Dummy());
