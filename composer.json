@@ -27,7 +27,7 @@
     "extra": {
         "php-di-definitions": {
             "di": [
-                "etc/di/dummy.php"
+                "etc/di/*.php"
             ]
         }
     },
