@@ -1,9 +1,11 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 use PHPDIDefinitions\Dummy;
 
 return [
-    Dummy::class => function () {
+    Dummy::class => static function () {
         return new Dummy();
     },
 ];
