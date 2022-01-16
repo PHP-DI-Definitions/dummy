@@ -9,10 +9,10 @@
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^8 || ^7.4"
     },
     "require-dev": {
-        "wyrihaximus/test-utilities": "^3.7.6"
+        "wyrihaximus/test-utilities": "^5 || ^3.7.6"
     },
     "autoload": {
         "psr-4": {
